@@ -16,7 +16,7 @@
 #include "signal_op.h"
 #include "AFLIB/aflibConverter.h"
 #include "error_op.h"
-
+#include <cmath>
 
 Signal_op::Signal_op()
 {

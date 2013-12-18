@@ -8,6 +8,8 @@
 -------------------------------------------------------------------*/
 
 #include "protocol.h"
+#include <cstring>
+#include <cstdio>
 
 AudioData* loadWaveFile(char *file);
 AudioData* loadDataUsingLAME(char *file);

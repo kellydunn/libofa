@@ -13,6 +13,8 @@
 #include <sys/wait.h>
 #endif
 
+#include <unistd.h>
+
 AudioData *loadWaveFile(char *file);
 
 //	loadDataUsingLAME

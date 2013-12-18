@@ -13,6 +13,7 @@
 #include <expat.h>
 #include <curl/curl.h>
 #include <curl/easy.h>
+#include <cstring>
 
 using namespace std;
 

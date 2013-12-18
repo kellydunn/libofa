@@ -11,6 +11,7 @@
 #include "io.h"
 #endif
 #include <fcntl.h>
+#include <unistd.h>
 
 static bool readBytes(int fd, unsigned char *buf, int size) {
     int ct = 0;
